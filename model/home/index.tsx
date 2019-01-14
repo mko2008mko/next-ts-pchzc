@@ -1,3 +1,14 @@
+export interface IUserShare {
+  id: number;
+  imgUrl: string;
+  nationalFlag: string;
+  desc: string;
+  name: string;
+  city: string;
+  carType: string;
+  time: string;
+}
+
 export interface IHomeVendor {
   id: number;
   imgUrl: string;
@@ -56,6 +67,7 @@ export interface IndexProps {
   recommendcarType: ICarType[];
   fsList: IFeatureService[];
   vendorList: IHomeVendor[];
+  userShareList: IUserShare[];
 }
 
 // export

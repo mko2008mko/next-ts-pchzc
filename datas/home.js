@@ -216,3 +216,106 @@ export const vendorList = [
     hoverImgUrl: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/1.44/thrifty_hover.png'
   }
 ];
+
+export const userShareList = [
+  {
+    id: 1,
+    imgUrl: 'https://cdn-qiniu-activity1.huizuche.com/13673_pc.jpg',
+    nationalFlag: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/Germany36.png',
+    desc: '很满意',
+    name: '- 陆**',
+    city: '法兰克福',
+    carType: '轿车',
+    time: '2016.12.12'
+  },
+  {
+    id: 2,
+    imgUrl: 'https://cdn-qiniu-activity1.huizuche.com/13709_pc.jpg',
+    nationalFlag: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/Australia36.png',
+    desc: '要小心澳洲FWY上的坑提前减速',
+    name: '- 钱**',
+    city: '墨尔本',
+    carType: '轿车',
+    time: '2018.10.12'
+  },
+  {
+    id: 3,
+    imgUrl: 'https://cdn-qiniu-activity1.huizuche.com/13419_pc.jpg',
+    nationalFlag: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/Germany36.png',
+    desc: '1.取车还车都拍好照片存档，包括车身和仪表2.还车前记住先...',
+    name: '- 程**',
+    city: '慕尼黑',
+    carType: '轿车',
+    time: '2018.08.12'
+  },
+  {
+    id: 4,
+    imgUrl: 'https://cdn-qiniu-activity1.huizuche.com/13673_pc.jpg',
+    nationalFlag: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/Germany36.png',
+    desc: '4很满意',
+    name: '- 陆**',
+    city: '法兰克福',
+    carType: '轿车',
+    time: '2016.12.12'
+  },
+  {
+    id: 5,
+    imgUrl: 'https://cdn-qiniu-activity1.huizuche.com/13709_pc.jpg',
+    nationalFlag: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/Australia36.png',
+    desc: '5要小心澳洲FWY上的坑提前减速',
+    name: '- 钱**',
+    city: '墨尔本',
+    carType: '轿车',
+    time: '2018.10.12'
+  },
+  {
+    id: 6,
+    imgUrl: 'https://cdn-qiniu-activity1.huizuche.com/13419_pc.jpg',
+    nationalFlag: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/Germany36.png',
+    desc: '61.取车还车都拍好照片存档，包括车身和仪表2.还车前记住先...',
+    name: '- 程**',
+    city: '慕尼黑',
+    carType: '轿车',
+    time: '2018.08.12'
+  },
+  {
+    id: 7,
+    imgUrl: 'https://cdn-qiniu-activity1.huizuche.com/13673_pc.jpg',
+    nationalFlag: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/Germany36.png',
+    desc: '7很满意',
+    name: '- 陆**',
+    city: '法兰克福',
+    carType: '轿车',
+    time: '2016.12.12'
+  },
+  {
+    id: 8,
+    imgUrl: 'https://cdn-qiniu-activity1.huizuche.com/13709_pc.jpg',
+    nationalFlag: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/Australia36.png',
+    desc: '8要小心澳洲FWY上的坑提前减速',
+    name: '- 钱**',
+    city: '墨尔本',
+    carType: '轿车',
+    time: '2018.10.12'
+  },
+  {
+    id: 9,
+    imgUrl: 'https://cdn-qiniu-activity1.huizuche.com/13419_pc.jpg',
+    nationalFlag: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/Germany36.png',
+    desc: '91.取车还车都拍好照片存档，包括车身和仪表2.还车前记住先...',
+    name: '- 程**',
+    city: '慕尼黑',
+    carType: '轿车',
+    time: '2018.08.12'
+  },
+  {
+    id: 10,
+    imgUrl: 'https://cdn-qiniu-activity1.huizuche.com/13709_pc.jpg',
+    nationalFlag: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/Australia36.png',
+    desc: '10要小心澳洲FWY上的坑提前减速',
+    name: '- 钱**',
+    city: '墨尔本',
+    carType: '轿车',
+    time: '2018.10.12'
+  }
+];
