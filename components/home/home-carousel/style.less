@@ -1,0 +1,59 @@
+.carousel-banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #f2f5f8;
+  
+    a {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      opacity: 0;
+      transition: 1s ease-in-out;
+  
+      div {
+        width: 100%;
+        height: 100%;
+        background-position: top center;
+      }
+    }
+    .current {
+      opacity: 1;
+      z-index: 2;
+    }
+  
+    .cb-nav {
+      position: absolute;
+      bottom: 40px;
+      left: 600px;
+      z-index: 999;
+  
+      li {
+        width: 108px;
+        height: 24px;
+        float: left;
+        text-align: center;
+        // background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMV…AAAXRSTlMAQObYZgAAABJJREFUeF4FwIEIAAAAAKD9qY8AAgABdDtSRwAAAABJRU5ErkJggg==) no-repeat center center;
+        background-color: rgba(46, 62, 76, 0.7);
+        color: #fff;
+        font-size: 12px;
+        border-radius: 2px;
+        line-height: 24px;
+        margin-left: 4px;
+        cursor: pointer;
+      }
+  
+      .currentdot {
+        background: url("https://cdn-aliyun-pccss.huizuche.com/Content/Images/index/indexnew/new-index.png")
+          no-repeat;
+        background-position: -198px -150px;
+      }
+    }
+  }

@@ -1,0 +1,53 @@
+.user-info {
+    height: 79px;
+    margin-top: 11px;
+    padding-top: 2px;
+    padding-left: 20px;
+    position: relative;
+  
+    .no-login {
+      margin-top: 32px;
+      color: #ffa23e;
+      font-weight: bold;
+      font-size: 18px;
+  
+      a {
+        font-size: 16px;
+        display: inline-block;
+        color: #ffa23e;
+        font-weight: bold;
+      }
+  
+      .gift-icon {
+        position: absolute;
+        top: 18px;
+        right: -32px;
+      }
+    }
+  
+    .line() {
+      width: 1px;
+      height: 79px;
+      background-position: -399px 0;
+      position: absolute;
+      top: 0;
+      display: none;
+    }
+  
+    .lt-line {
+      // &:extend(.line);
+      .line();
+      // width: 1px;
+      // height: 79px;
+      // background-position: -399px 0;
+      // position: absolute;
+      // left: -16px;
+      // top: 0;
+      left: -23px;
+    }
+  
+    .rt-line {
+      .line();
+      right: -23px;
+    }
+  }
