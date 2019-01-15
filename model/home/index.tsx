@@ -1,3 +1,18 @@
+export interface ItitleTab {
+  title: string;
+  tabs: string[];
+}
+
+export interface ITripNeed {
+  id: number;
+  imgUrl: string;
+  title: string;
+  desc: string;
+  price: number;
+  isHot: boolean;
+  type: number;
+}
+
 export interface IUserShare {
   id: number;
   imgUrl: string;
@@ -68,6 +83,7 @@ export interface IndexProps {
   fsList: IFeatureService[];
   vendorList: IHomeVendor[];
   userShareList: IUserShare[];
+  tripNeedList: ITripNeed[];
 }
 
 // export

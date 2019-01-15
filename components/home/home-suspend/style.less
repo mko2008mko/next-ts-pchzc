@@ -1,0 +1,187 @@
+.sfade-enter  /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0.01;
+  transform: translateX(100%);
+}
+
+.sfade-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transform: all 300ms ease-in-out;
+}
+
+.sfade-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.sfade-exit-active {
+  opacity: 0.01;
+  transform: translateX(100%);
+  transition: all 300ms ease-in-out;
+}
+
+#suspend {
+  width: 56px;
+  height: auto;
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+  padding-bottom: 0;
+  z-index: 10;
+
+  #popup {
+    position: relative;
+
+    .spsSq-popup {
+      width: 200px;
+      height: 103px;
+      top: 0;
+      left: 100px;
+      background-color: #fff;
+      position: absolute;
+      text-align: center;
+      border: 1px solid #c4d1d8;
+      border-radius: 4px;
+      //   z-index: 15;
+      p {
+        font-size: 16px;
+        color: #2e3e4c;
+        line-height: 103px;
+      }
+    }
+
+    .spsCall-popup {
+      box-sizing: border-box;
+      width: 200px;
+      height: 100px;
+      top: 102px;
+      left: 100px;
+      background-color: #fff;
+      position: absolute;
+      text-align: center;
+      border: 1px solid #c4d1d8;
+      border-radius: 4px;
+      padding: 30px 10px;
+      p {
+        font-size: 14px;
+        color: #2e3e4c;
+        margin-bottom: 5px;
+      }
+    }
+
+    .spsCode-popup {
+      box-sizing: border-box;
+      width: 200px;
+      height: 180px;
+      top: 201px;
+      left: 100px;
+      background-color: #fff;
+      position: absolute;
+      text-align: center;
+      border: 1px solid #c4d1d8;
+      border-radius: 4px;
+      p {
+        padding: 8px 0 2px 0;
+        font-size: 16px;
+        line-height: 20px;
+        color: #131c28;
+        font-weight: bold;
+      }
+
+      span {
+        font-size: 14px;
+        color: #2e3e4c;
+        display: inherit;
+      }
+
+      img {
+        width: 92px;
+        height: 92px;
+      }
+    }
+  }
+
+  .sps-wrap {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 11;
+    position: relative;
+    border: 1px solid #c4d1d8;
+    box-sizing: border-box;
+
+    #spsSq {
+      box-sizing: border-box;
+      padding: 13px 10px;
+      width: 34px;
+      //   margin-bottom: 13px;
+      //   padding-top: 13px;
+      position: relative;
+      cursor: point;
+
+      .sps-sq {
+        background: url(https://cdn-aliyun-pccss.huizuche.com/Content/Images/index/indexnew/servise02.png);
+        height: 35px;
+        width: 27px;
+        margin-bottom: 6px;
+        margin-left: 5px;
+      }
+
+      p {
+        width: 36px;
+        text-align: center;
+        color: #768fa4;
+        line-height: 17px;
+      }
+    }
+
+    #spsCall {
+      box-sizing: border-box;
+      padding: 13px 10px;
+      width: 34px;
+      //   margin-bottom: 13px;
+      //   padding-top: 13px;
+      position: relative;
+      cursor: pointer;
+      border-top: 1px solid #c4d1d8;
+
+      .sps-call {
+        background: url(https://cdn-aliyun-pccss.huizuche.com/Content/Images/index/indexnew/call01.png);
+        height: 32px;
+        width: 31px;
+        margin-bottom: 6px;
+      }
+
+      p {
+        width: 36px;
+        text-align: center;
+        color: #768fa4;
+        line-height: 17px;
+      }
+    }
+
+    #spsCode {
+      box-sizing: border-box;
+      padding: 13px 10px;
+      width: 34px;
+      //   margin-bottom: 13px;
+      //   padding-top: 13px;
+      position: relative;
+      cursor: pointer;
+      border-top: 1px solid #c4d1d8;
+
+      .sps-code {
+        background: url(https://cdn-aliyun-pccss.huizuche.com/Content/Images/index/indexnew/wechat01.png);
+        height: 29px;
+        width: 33px;
+        margin-bottom: 6px;
+      }
+
+      p {
+        width: 36px;
+        text-align: center;
+        color: #768fa4;
+        line-height: 17px;
+      }
+    }
+  }
+}

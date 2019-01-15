@@ -319,3 +319,133 @@ export const userShareList = [
     time: '2018.10.12'
   }
 ];
+
+export const tripNeedList = [
+  {
+    id: 1,
+    imgUrl: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/1.44/renxian.jpg',
+    title: '安联境外旅游险',
+    desc: '',
+    price: 45,
+    isHot: true,
+    type: 1
+  },
+  {
+    id: 2,
+    imgUrl: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/app_us_sim.jpg',
+    title: '美国电话卡',
+    desc: '30天无限流量',
+    price: 198,
+    isHot: false,
+    type: 1
+  },
+  {
+    id: 3,
+    imgUrl: 'https://cdn-qiniu-activity1.huizuche.com/wifi.jpg',
+    title: '韩国随身WIFI',
+    desc: '无限上网',
+    price: 12,
+    isHot: false,
+    type: 1
+  },
+  {
+    id: 4,
+    imgUrl: 'https://cdn-qiniu-activity1.huizuche.com/wifi.jpg',
+    title: '澳新 WIFI',
+    desc: '支持全国异地还件',
+    price: 32,
+    isHot: false,
+    type: 1
+  },
+  {
+    id: 5,
+    imgUrl: 'https://cdn-qiniu-activity1.huizuche.com/wifi.jpg',
+    title: '欧洲多国WIFI',
+    desc: '欧洲39国通用',
+    price: 35,
+    isHot: false,
+    type: 1
+  },
+  {
+    id: 6,
+    imgUrl: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/tubao.jpg',
+    title: '全球电话卡',
+    desc: '途宝飞鲸软卡',
+    price: 49,
+    isHot: false,
+    type: 1
+  },
+  {
+    id: 7,
+    imgUrl: 'https://cdn-aliyun-hzccontent.huizuche.com/xinxilanchuanpiao.png',
+    title: '新西兰跨岛船票',
+    desc: '南北岛轮渡票',
+    price: 179,
+    isHot: false,
+    type: 1
+  },
+
+  {
+    id: 8,
+    imgUrl: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/1.44/huanqiuyingcheng.jpg',
+    title: '电影梦工厂',
+    desc: '',
+    price: 1389,
+    isHot: true,
+    type: 2
+  },
+  {
+    id: 2,
+    imgUrl: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/1.44/motianlun.jpg',
+    title: '摩天轮之恋',
+    desc: '世界最高豪华座舱',
+    price: 98,
+    isHot: false,
+    type: 2
+  },
+  {
+    id: 3,
+    imgUrl: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/1.44/youlun.jpg',
+    title: '豪华游轮',
+    desc: '感受旧金山海湾夜景',
+    price: 914,
+    isHot: false,
+    type: 2
+  },
+  {
+    id: 4,
+    imgUrl: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/1.44/zhishengji.jpg',
+    title: '飞跃地平线',
+    desc: '高空俯瞰拉斯维加斯',
+    price: 647,
+    isHot: false,
+    type: 2
+  },
+  {
+    id: 5,
+    imgUrl: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/Wine.jpg',
+    title: '纳帕品酒之旅',
+    desc: '领略美国波尔多',
+    price: 274,
+    isHot: false,
+    type: 2
+  },
+  {
+    id: 6,
+    imgUrl: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/1.44/oshow.jpg',
+    title: '拉斯维加斯O秀',
+    desc: '太阳马戏巅峰之作',
+    price: 1087,
+    isHot: false,
+    type: 2
+  },
+  {
+    id: 7,
+    imgUrl: 'https://cdn-aliyun-hzccontent.huizuche.com/huizuche/1.44/dingdingche.jpg',
+    title: '叮叮车漫游',
+    desc: '1卡游遍洛杉矶',
+    price: 179,
+    isHot: false,
+    type: 2
+  }
+];
