@@ -9,13 +9,14 @@ import { INav } from '../../model/home/index';
 
 interface IHeaderProps {
   navData: INav[];
+  pathname: string;
 }
 
 const Header = (props: IHeaderProps) => (
   <header>
     <div className="sh-wrap">
       <HomeLogo />
-      <HeaderNav navData={props.navData} />
+      <HeaderNav navData={props.navData} pathname={props.pathname}/>
       <AppDownLoad />
       <HeaderServicePhone />
       <HeaderUserInfo />

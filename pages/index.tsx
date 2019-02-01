@@ -1,6 +1,5 @@
 import * as React from 'react';
-import Head from '../components/head';
-import Header from '../components/header/index';
+import Layout from '../components/Layout';
 import HomeCarousel from '../components/home/home-carousel/index';
 import HomeFixFooter from '../components/home/home-fix-foot/index';
 import HomeCoupon from '../components/home/home-coupon/index';
@@ -33,26 +32,26 @@ function getHomeData() {
 }
 
 class Index extends React.Component<IndexProps> {
-  public static async getInitialProps() {
+  public static async getInitialProps({ pathname }) {
     const homeData = await getHomeData();
-    return { ...homeData };
+    return { ...homeData, pathname };
   }
 
   public render() {
     return (
-      <div className="home">
-        <Head title="HZC" />
-        <Header navData={this.props.navData} />
-        <HomeFixFooter />
-        <HomeCarousel data={this.props.carouselData} />
-        <HomeCoupon />
-        <HomeCarType data={this.props.recommendcarType} />
-        <HomeFeatureService data={this.props.fsList} />
-        <HomeVendorWall data={this.props.vendorList} />
-        <HomeUserSare data={this.props.userShareList} />
-        <HomeSuspend />
-        <HomeTripNeed data={this.props.tripNeedList} />
-      </div>
+      <Layout title="Hzc" navData={this.props.navData} pathname={this.props.pathname}>
+        <div className="home">
+          <HomeFixFooter />
+          <HomeCarousel data={this.props.carouselData} />
+          <HomeCoupon />
+          <HomeCarType data={this.props.recommendcarType} />
+          <HomeFeatureService data={this.props.fsList} />
+          <HomeVendorWall data={this.props.vendorList} />
+          <HomeUserSare data={this.props.userShareList} />
+          <HomeSuspend />
+          <HomeTripNeed data={this.props.tripNeedList} />
+        </div>
+      </Layout>
     );
   }
 }

@@ -16,7 +16,10 @@
     "next": "^7.0.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-transition-group": "^2.5.2"
+    "react-transition-group": "^2.5.2",
+    "postcss-flexbugs-fixes": "3.2.0",
+    "postcss-loader": "2.0.8",
+    "autoprefixer": "7.1.6"
   },
   "devDependencies": {
     "@types/next": "^7.0.2",

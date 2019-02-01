@@ -18,7 +18,7 @@ export const navData = [
     title: '驾照翻译',
     sub: [{ id: 1, subTitle: '驾照全球通', subLinkUrl: '' }, { id: 2, subTitle: '驾照翻译件', subLinkUrl: '' }],
     isRecommend: false,
-    linkUrl: '/'
+    linkUrl: ''
   },
   {
     id: 4,
@@ -31,14 +31,14 @@ export const navData = [
       { id: 5, subTitle: '优驾全球乘驾险', subLinkUrl: '' }
     ],
     isRecommend: false,
-    linkUrl: '/'
+    linkUrl: ''
   },
   {
     id: 5,
     title: '自驾攻略',
     sub: [],
     isRecommend: true,
-    linkUrl: '/DriveStrategy'
+    linkUrl: '/drivestrategy'
   },
   {
     id: 6,

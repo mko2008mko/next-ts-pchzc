@@ -63,13 +63,13 @@ export interface ICarousel {
 }
 
 export interface IHNCbox {
-  id: string;
+  id: number;
   subTitle: string;
   subLinkUrl: string;
 }
 
 export interface INav {
-  id: string;
+  id: number;
   title: string;
   sub: IHNCbox[];
   isRecommend: boolean;
@@ -84,6 +84,7 @@ export interface IndexProps {
   vendorList: IHomeVendor[];
   userShareList: IUserShare[];
   tripNeedList: ITripNeed[];
+  pathname:string;
 }
 
 // export

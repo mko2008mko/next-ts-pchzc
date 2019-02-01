@@ -1,31 +1,23 @@
-import * as React from 'react'
-import Link from 'next/link'
-import Head from 'next/head'
+import * as React from 'react';
+// import Link from 'next/link';
+import Head from './head';
+import Header from './header/index';
+import { INav } from '../model/home/index';
 
-type Props = {
-  title?: string
+interface IProps {
+  title?: string;
+  navData: INav[];
+  children: any;
+  pathname: string;
 }
-
-const Layout: React.FunctionComponent<Props> = ({ children, title = 'This is the default title' }) => (
+const Layout = ({ children, title = 'This is the default title', navData, pathname }: IProps) => (
+  // const Layout: React.FunctionComponent<IProps> = ({ children, title = 'This is the default title', navData }) => (
   <div>
-    <Head>
-      <title>{title}</title>
-      <meta charSet='utf-8' />
-      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-    </Head>
-    <header>
-      <nav>
-        <Link href='/'><a>Home</a></Link> | {' '}
-        <Link href='/list'><a>List</a></Link> | {' '}
-        <Link href='/about'><a>About</a></Link> | {' '}
-      </nav>
-    </header>
-    {children}
-    <footer>
-        <hr/>
-        <span>I'm here to stay (Footer)</span>
-    </footer>
-  </div>
-)
+    <Head title={title} />
+    <Header navData={navData} pathname={pathname} />
 
-export default Layout
+    {children}
+  </div>
+);
+
+export default Layout;
